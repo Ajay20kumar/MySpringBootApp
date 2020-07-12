@@ -11,6 +11,7 @@ import org.springframework.context.annotation.ComponentScan;
 public class ServiceHelpDeskApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Ajay Application")
 		SpringApplication.run(ServiceHelpDeskApplication.class, args);
 	}
 }
